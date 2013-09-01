@@ -4,7 +4,7 @@ global $_CFG;
 $this->textline('Skin options');
 $skins = array( 'default' => 'Default',
 				'hanna'  => 'Hanna',
-				//'dark'    => 'Dark',
+				'lashu'   => 'Lashu',
 				'konsus'  => 'Konsus'
 			  );
 $this->select("skin","Website skin:", $skins , null, "style='width:150px'");

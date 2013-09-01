@@ -1,0 +1,14 @@
+mkdir('/usr/local/www/sites/projects_andrej/nlcc/in_site/modules/input/home_page')
+chmod('/usr/local/www/sites/projects_andrej/nlcc/in_site/modules/input/home_page',0777)
+create file: '/usr/local/www/sites/projects_andrej/nlcc/in_site/modules/input/home_page/home_page.php'
+chmod('/usr/local/www/sites/projects_andrej/nlcc/in_site/modules/input/home_page/home_page.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/nlcc/in_site/modules/input/home_page/_template.php'
+chmod('/usr/local/www/sites/projects_andrej/nlcc/in_site/modules/input/home_page/_template.php',0777)
+sql query: INSERT INTO ins_modules SET
+        				id		='5',
+        				title	='home_page',
+        				file	='home_page',
+        				type	='2',
+        				description='Vvod odnogo texta.',
+        				repository_id = '0904'
+create uninstall file : /usr/local/www/sites/projects_andrej/nlcc/in_site/modules/input/home_page/uninstall_module.php

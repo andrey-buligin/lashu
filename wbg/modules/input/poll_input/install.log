@@ -1,0 +1,16 @@
+mkdir('/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/product_parametr')
+chmod('/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/product_parametr',0777)
+sql query: INSERT INTO wbg_modules SET
+        				id			= '14',
+        				title		= 'product_parametr',
+        				file		= 'input/product_parametr/product_parametr.php',
+        				type		= '1',
+        				description	= 'Sozdajem standartnuju administraciju nekih objektov',
+        				category_id	= '1',
+        				repository_name = 'http://modules.web-gooroo.com',
+        				repository_id = '8'
+create file: '/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/product_parametr/__template.php'
+chmod('/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/product_parametr/__template.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/product_parametr/product_parametr.php'
+chmod('/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/product_parametr/product_parametr.php',0777)
+create uninstall file : /usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/product_parametr/_uninstall_module.php

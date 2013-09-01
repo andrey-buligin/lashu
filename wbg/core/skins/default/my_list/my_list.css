@@ -1,0 +1,43 @@
+.my_list input.checkbox {height:14px; width:14px !important; font-size:100px; padding:0px; margin:1px}
+
+
+.my_list table, table.my_list
+						{	border-collapse:collapse;
+							width:100%;
+							font-size:11px;
+							font-family:Tahoma}
+
+.my_list td 			{	background:#ffffff;
+							padding:3px 7px 4px 7px;
+							border-right:1px solid #fafafa;
+							border-bottom:1px solid #dfdfdf;
+							font-size:11px;
+						}
+
+.my_list .mouse_overed	{background-color:#eeeeee !important}
+
+.my_list th 			{	background:url("images/header-bg.gif") top repeat-x;
+							color:#ffffff;
+							font-size:11px;
+							text-align:left;
+							padding:5px 7px 4px 7px;
+							border-right:1px solid #fafafa;
+						}
+
+.my_list th a, .my_list th	{text-decoration:none; color:#ffffff; font-weight:normal; font-size:11px}
+.my_list th a:hover 	{text-decoration:underline;}
+
+.my_list td.sorted_by 	{background:#efefef}
+
+.my_list tr.opened_and_changed td  		{background-color:#e5cb92 !important}
+.my_list tr.active td   				{background-color:#fff5de !important}
+.my_list tr th.active   				{background:url("images/header-bg-active.gif") top repeat-x}
+
+#pagelist 			{border-collapse:collapse;background:#C6C7C6;margin:2px 0px}
+#pagelist a 		{padding:0px 3px;text-decoration:none;background:#EFEFEF;margin:0px 1px;color:#000000}
+#pagelist a:hover 	{background:#F7A208;color:#ffffff}
+#pagelist a.active	{background:#F7A208;color:#ffffff}
+#pagelist .bullet 	{width:12px;display:block;padding:0px;text-align:center}
+
+
+

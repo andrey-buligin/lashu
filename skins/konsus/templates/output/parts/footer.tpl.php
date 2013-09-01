@@ -1,0 +1,2 @@
+<span class="upcase f-right"><span id="poweredBy">Developed by <a target="_blank" href="http://www.andreybuligin.com"><img src="images/skins/konsus/andreybuligin.jpg" alt="Andrey Buligin"/>Andrey Buligin</a></span><?php WBG::message("copyright");?></span>
+<div id="contacts"><?php WBG::message("contacts");?></div>

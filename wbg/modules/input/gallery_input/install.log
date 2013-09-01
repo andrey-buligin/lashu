@@ -1,0 +1,32 @@
+mkdir('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input')
+chmod('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input',0777)
+sql query: INSERT INTO wbg_modules SET
+        				id			= '25',
+        				title		= 'gallery_input',
+        				file		= 'input/gallery_input/gallery_input.php',
+        				type		= '1',
+        				description	= 'Наиболее часто используемый модуль. Модуль для ввода текстовой информации.',
+        				category_id	= '1',
+        				repository_name = 'http://modules.web-gooroo.com',
+        				repository_id = '3'
+create file: 'F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/gallery_input.php'
+chmod('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/gallery_input.php',0777)
+create file: 'F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/_list_functions.php'
+chmod('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/_list_functions.php',0777)
+create file: 'F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/_list_template_table.tpl'
+chmod('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/_list_template_table.tpl',0777)
+create file: 'F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/_translations.php'
+chmod('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/_translations.php',0777)
+create file: 'F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/onclick.js'
+chmod('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/onclick.js',0777)
+create file: 'F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/popup.copy_data.php'
+chmod('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/popup.copy_data.php',0777)
+create file: 'F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/popup.move_data.php'
+chmod('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/popup.move_data.php',0777)
+create file: 'F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/wbg_make_search.php'
+chmod('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/wbg_make_search.php',0777)
+create file: 'F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/wbg_seo_sitemap.php'
+chmod('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/wbg_seo_sitemap.php',0777)
+create file: 'F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/wbg_set_crosslink.php'
+chmod('F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/wbg_set_crosslink.php',0777)
+create uninstall file : F:\Apache\htdocs\fans\wbg\modules/input/gallery_input/_uninstall_module.php

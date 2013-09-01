@@ -1,0 +1,1 @@
+<?php $line[] = "\n".'<tr id="tr['.$value['id'].']" '.($lineid++%2==0?'class="chet"':'class="nechet"').'>'.$list.'</tr>';?>

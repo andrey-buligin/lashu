@@ -1,0 +1,97 @@
+/**
+*	Eto osnovnoj CSS fail kotorij gruzitsa vo vse  strancici sistemi
+*/
+
+body , html		{padding:0px; margin:0px; border:0px;}
+
+html, textarea {scrollbar-face-color:#d2d1d1;
+	   				scrollbar-arrow-color:#000000;
+	   				scrollbar-track-color:#f1f1f1;
+			   		scrollbar-shadow-color:#f1f1f1;
+			   		scrollbar-highlight-color:#f1f1f1;
+			   		scrollbar-3dlight-color:#f1f1f1;
+			   		scrollbar-darkshadow-Color:#f1f1f1;}
+
+body * 			{font-size:11px; font-family:Tahoma}
+img				{border:0px}
+form 			{margin:0px}
+
+.px11, .px11 *  {font-size:11px}
+b				{font-weight:bold !important}
+
+#sizer			{position:absolute;right:1px;bottom:1px;width:1px}
+
+.dropdown-menu	a {text-decoration:none; display:block; color:#000000; padding:1px 5px;}
+.dropdown-menu	a:hover {background:#dddddd}
+
+/****************************************************************/
+/** [[[ Eto standartnije elementi form **/
+
+	/** Eto defoltnij button. Format buttona takov : <div class="button"><input type="submit" value=" Enter "></div> */
+	DIV.button 			{padding:0px 1px; width:auto; background:#f29706; float:left; width:auto; height:18px; border-right:3px solid #f1f1f1}
+	DIV.right			{float:right !important}
+	DIV.white			{border-right:3px solid #ffffff}
+	DIV.dark			{border-right:3px solid #888888}
+
+	.button input 		{position:relative; color:#ffffff; background:#ec8c05; height:20px; border:0px; margin-top:-1px; margin-bottom:-3px; background:url('images/button-bg.gif'); font-size:11px}
+	#content-footer DIV.button {border-right:3px solid #e3e2e2}
+
+	INPUT.default		{border:1px solid #aeaeae}
+	INPUT.button		{border:0px; background:#f29706; color:#ffffff; padding-top:1px; font-size:11px}
+
+/** ]]] Eto standartnije elementi form **/
+/****************************************************************/
+/** [[[ Eto verhnjaja navigacija **/
+
+	#nav-top			{position:absolute; right:20px; z-index:100}
+	#nav-top *	 		{font-size:11px; font-weight:bold}
+	#nav-top div 		{float:right; padding:13px 20px; cursor:pointer}
+
+	#nav-top div.active 		{border:1px solid #ffffff; border-bottom:1px solid #f1f1f1; background:url('images/top-bg.gif') top ; padding:0px; margin-top:-5px; position:relative;}
+	#nav-top div.active	div 	{float:none; padding:0px; padding:10px 20px; border:1px solid #bfbfbf; border-bottom:0px;}
+	#nav-top div.active	div img {margin-right:6px}
+
+	table.header 			{border-collapse:collapse; width:100%}
+	table.header td 		{padding:0px; margin:0px; font-size:12px; font-weight:bold; font-size:11px}
+	table.header td *		{font-size:11px}
+	table.header td.center 	{background:url('images/header-bg.gif'); width:100%; padding-left:6px}
+
+	#submenus				{position:absolute; left:0px; z-index:101}
+	#submenus div 			{padding-left:0px; position:absolute; white-space:nowrap}
+	#submenus a   			{color:#000000; text-decoration:none; font-size:11px}
+	#submenus a:hover  		{text-decoration:underline}
+	#submenus a.active  	{color:#f7a208; font-weight:bold}
+	#submenus img 			{vertical-align:middle; margin:0px 5px}
+
+/** ]]] Eto verhnjaja navigacija **/
+/****************************************************************/
+/** [[[ Eto polosa s knopkami v pravom bloke content | settings | propeties .... **/
+
+	#content_mode_selector			 	{background:#d6d6d6; text-align:right; height:26px}
+	#content_mode_selector input 		{background:#d6d6d6; border:0px; width:80px; padding:5px 0px; border-left:1px solid #f1f1f1; font-size:11px; cursor:pointer}
+	#content_mode_selector input.active {background:#f1f1f1}
+
+/** ]]] Eto polosa s knopkami v pravom bloke content | settings | propeties .... **/
+/****************************************************************/
+/** [[[ Content oblastj. Standartnij pokaz - sleva blok , sprava blok **/
+
+	table#wbg-content			 		{border-collapse:collapse; height:100%; width:100%}
+	table#wbg-content td.left-cat		{padding-right:10px; vertical-align:top}
+	table#wbg-content td.left 			{padding-left:15px; padding-right:10px; vertical-align:top}
+	table#wbg-content td.right 			{padding-right:15px; vertical-align:top}
+	table#wbg-content code 				{display:block; padding:3px 2px}
+	table#wbg-content iframe 			{border:0px}
+	div.grey-block 						{border:1px solid #bfbfbf; border-top:0px; background:#f1f1f1}
+
+
+/** ]]] Content oblastj. Standartnij pokaz - sleva blok , sprava blok **/
+/****************************************************************/
+/** [[[ Tabs ***/
+
+	.wbg-tabs {padding:0px 5px}
+	.wbg-tabs input {border:0px; background:#eeeeee; padding:2px 10px; border:1px solid #cccccc; margin-bottom:-1px; position:relative; z-index:4}
+	.wbg-tabs input.active {background:#ffffff; border-bottom:1px solid #ffffff}
+	.wbg-tabs-content {background:#ffffff; margin:0px 5px; border:1px solid #cccccc; position:relative; z-index:1}
+
+/** ]]] Tabs ***/
+/****************************************************************/

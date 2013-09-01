@@ -1,0 +1,14 @@
+* {font-family:Tahoma; font-size:12px}
+body {margin:0px}
+#steps img {vertical-align:middle}
+#steps div {padding:4px 10px; border:1px solid #f4f4f4}
+#steps div.active {border:1px solid #e5e5e5; background:#ffffff}
+
+.install_form {border:10px solid #e5e5e5; background:#e5e5e5}
+.install_form td {padding:8px 2px; border-bottom:1px solid #fefefe; line-height:18px}
+.install_form tr.last td {padding:8px 2px; line-height:18px; border:0px}
+
+.button {border:1px solid #eb8c00; font-size:11px; padding:2px 4px 1px 4px; color:#ffffff; background:url('images/button.gif')}
+input {border-left:1px solid #808080; border-top:1px solid #808080;border-bottom:1px solid #ffffff; border-right:1px solid #ffffff; width:240px}
+
+H1 {color:#08515a; font-size:16px; font-weight:bold; margin-bottom:4px}

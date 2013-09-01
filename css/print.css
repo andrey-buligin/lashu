@@ -1,0 +1,104 @@
+/************************************************************************************/
+/* Common */
+
+	body 	{margin:18px 0px 0 0;font-family: Tahoma, Geneva, Verdana, Helvetica, Arial;}
+	form 	{margin:0 0 0 0;}
+	img 	{border:0;}
+	a 				{ text-decoration:none; color:#5b5b5b }
+	a:hover			{ text-decoration:underline}
+	
+	.return	  { margin:7px 0 0 0}
+	.return	a {}
+	.readmore { margin:7px 0 0 0}
+
+	.blue	{ color:#cfcfcf !important;}
+	.bolded	{ font-weight:bold;}
+	.pink	{ color:#dc145f !important;}
+	.black	{ color:#000000 !important;}
+	.upcase	{ text-transform:uppercase}
+	
+/* Common */	
+/************************************************************************************/
+/* Content */
+	
+	.whiteBg		{ background:white}
+	.blackBg		{ background:url('images/building/contentBg.jpg') top left}
+	.greyBg			{ background:url('images/building/stPageContBg.jpg') top left}
+	.blackBgBig		{ background:url('images/building/transBg.gif') top left}
+	
+	#logo	{ position:absolute; margin:15px 0px 0px 10px;}
+	
+	#ContentPart	{ background:#ffffff; widthh:790px}
+	
+	#content		{ padding:20px 15px 22px 20px; color:#000000; colorrr:#5b5b5b;}
+	#content ul,ol	{ padding-left:18px; margin-left:0px}
+	#content li		{ list-style-image:url('images/building/li_img.gif'); padding-bottom:8px;  }
+	#content a		{ color:#000000; text-decoration:underline}
+	#content a:hover{ text-decoration:none}
+	
+	#content h2		{ font-size:18px; font-weight:normal; color:#5b5b5b; padding:0 0 5px 0; margin:0px; border-bottom:1px solid #ababaa;}
+	#content h2 a	{ font-size:12px; color:#5b5b5b;}
+	
+	*:first-child+html #openedDoc{padding:0px 15px 40px 0px; }
+	*html #openedDoc	 { padding:0px 15px 40px 0px;}
+	#openedDoc     		 { padding:0px 15px 40px 0px;}
+		
+	/*=======================================================================*/
+		
+	#openedProduct 		{ }
+	#openedText 		{ color:#000000; font-size:14px;clear:both;}
+	.topGalleryImg		{ float:left; margin-top:9px; padding-bottom:17px; }
+	.topGalleryImg div	{ margin-bottom:9px; }
+	.topGalleryImg.l	{ margin-right:7px}
+	
+	.tehGalleryImg		{ float:left; margin-top:9px; border:1px solid #ababaa; margin-bottom:10px;}
+	.tehGalleryImg.l	{ margin-right:7px}
+	
+	.paramTable		{ margin-top:10px; font-size:14px; width:100%;}
+	.paramTable th	{ 
+		text-align:left; cursor:pointer; color:#ffffff; 
+		font-size:11px; font-weight:bold; 
+		background:url('images/building/buttonUp_p.gif') 98% 50%  no-repeat #606060; 
+		padding:6px 10px;
+	}
+	.paramTable td	{ padding:8px 10px; background:url('images/building/wbgTableBg.gif') bottom left repeat-x;}
+	.paramTable td.first	{ font-weight:bold; width:110px }
+	.paramTable .emptyRow td	{ padding:3px; font-size:8px; background:nonee !important}
+	
+	.wbgTable		{ margin-top:10px; font-size:15px; width:100%;}
+	.wbgTable th	{ 
+		text-align:left; cursor:pointer; color:#ffffff; 
+		font-size:11px; font-weight:bold; 
+		background:url('images/building/buttonUp_p.gif') 98% 50%  no-repeat #009ec0; 
+		padding:6px 10px;
+	}
+	.wbgTable td	{ padding:8px 10px; background:url('images/building/wbgTableBg.gif') bottom left repeat-x;}
+	
+	/*=======================================================================*/
+	
+	#prodList			{ }
+	.product			{ clear:both; padding-bottom:24px}
+	.product .leadImg	{ float:left; margin:0px 10px 10px 0px}
+	.specImg			{ margin-left:8px; vertical-align:middle}
+	.product .title		{ margin-bottom:8px; font-size:12px; font-weight:bold; color:#009ec0;}
+	.product .title a	{ font-size:12px; color:#009ec0; text-decoration:underline}
+	.product .title a:hover	{ text-decoration:none}
+	.product .lead		{ margin-bottom:8px; font-size:11px; color:#5b5b5b;}
+	.nr		{ font-size:11px; font-weight:bold; color:black}
+		
+	/*=======================================================================*/
+		
+/* Content */	
+/************************************************************************************/
+/* Navigation */
+	
+	#breadcrumbs	{ font-size:11px; padding:8px 0px 18px 0px }
+	#breadcrumbs a	{ font-size:11px; colorrr:#5b5b5b; color:#000000; }
+	
+/* Navigation */	
+/************************************************************************************/
+/* Footer */
+
+
+/* Footer */	
+/************************************************************************************/

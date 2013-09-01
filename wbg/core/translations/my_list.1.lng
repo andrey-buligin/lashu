@@ -1,0 +1,8 @@
+<?php
+define("__MYL_B_ADD_", "Pievienot jaunu");
+define("__MYL_B_DEL_", "Dzēst izvēlētus");
+define("__MYL_C_DEL_", "Pārliecināti kā gribat dzēst izvēlētus elementus");
+define("__MYL_C_COPY_", "Kopēt");
+define("__MYL_C_MOVE_", "Parvietot");
+define("__MYL_C_COPY_MOVE_", "Kopet/Parvietot");
+?>

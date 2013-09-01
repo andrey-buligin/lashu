@@ -1,0 +1,1 @@
+<?php $list .= '<td'.$this->cells_to_show[$key2]['tddata'].''.$bg.''.$this->_ext_td_settings($element_id, $value).'>'.$content.'</td>';?>

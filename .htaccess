@@ -1,0 +1,22 @@
+RewriteEngine On
+
+#Esli fail realno estj, to nechego tut bolshe delatj
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^(.+)$ $1 [L]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+)$ $1 [L]
+
+#Obrabotka standartnih papok
+RewriteRule ^.*/images/(.*)$    images/$1    [L]
+RewriteRule ^.*/files/(.*)$     files/$1     [L]
+RewriteRule ^.*/tools/(.*)$     tools/$1     [L]
+RewriteRule ^.*/css/(.*).css$   css/$1.css   [L]
+RewriteRule ^.*/js/(.*).js$     js/$1.js     [L]
+
+#Eto download failov iz mehanizma filemanager
+RewriteRule ^.*/download.php$   wbg/core/tools/download.php     [L]
+
+# Esli mi ne popali ni v 1 iz verhnih rulezov to idem v Sistemu
+RewriteRule ^(.+)$ index.php [L]
+
+Options -Indexes

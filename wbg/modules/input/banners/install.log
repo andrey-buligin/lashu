@@ -1,0 +1,20 @@
+mkdir('/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/banners')
+chmod('/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/banners',0777)
+sql query: INSERT INTO wbg_modules SET
+        				id			= '1',
+        				title		= 'banners',
+        				file		= 'input/banners/banners.php',
+        				type		= '1',
+        				description	= 'Простейшая администрация банеров. Из функционала - ввод картинки либо флеша и линка',
+        				category_id	= '1',
+        				repository_name = 'http://modules.web-gooroo.com',
+        				repository_id = '5'
+create file: '/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/banners/banners.php'
+chmod('/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/banners/banners.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/banners/__template.php'
+chmod('/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/banners/__template.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/banners/wbg_copy_content.php'
+chmod('/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/banners/wbg_copy_content.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/banners/wbg_delete_content.php'
+chmod('/usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/banners/wbg_delete_content.php',0777)
+create uninstall file : /usr/local/www/sites/projects_andrej/ojmar/wbg/modules/input/banners/_uninstall_module.php

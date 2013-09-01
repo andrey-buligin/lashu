@@ -1,0 +1,1 @@
+<?php $line[] = '<tr id="tr['.$value['id'].']">'.$list.'</tr>';?>

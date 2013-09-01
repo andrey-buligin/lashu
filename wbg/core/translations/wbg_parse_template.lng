@@ -1,0 +1,102 @@
+<?php
+
+//********************************************************************
+// <<< Blok perevodov
+
+	global $_CFG;
+	if (@$_CFG['user']['interface_language']==1){
+		define("__PRS_CH_FILE__", "Mainīt failu");
+		define("__PRS_EL_EXISTS__", "Elements jau eksistē!");
+		define("__PRS_ADD_IMG__", "Pievienot attēlu");
+		define("__PRS_INSERT__" , "Ielikt");
+		define("__PRS_DZEST__","Dzēst");
+		define("__PRS_PLATUMS__","Platums");
+		define("__PRS_AUGSTUMS__","Augstums ");
+		define("__PRS_ADDBLOCK__","Pievienot bloku");
+		define("__PRS_ADDEDITIMAGE__","Pievienot/Latbot attēlu");
+		define("__PRS_PREVIEWIMAGE__","Preview");
+		define("__PRS_APRAKSTS__","Apraksts");
+		define("__PRS_ERROR_1__","Nav pievienots neviens elements ieksh start_repeat_block");
+		define("__PRS_DIR_ABSENT__","Tādas direktorijas nav:");
+		define("__PRS_DIR_READONLY__","Nevar rakstīt šajā direktorjā:");
+		define("__PRS_IZMERI__","Izmeri");
+		define("__PRS_JABUT__","Jābūt");
+		define("__PRS_GENER__","Generēt attēlu");
+		define("__PRS_ADD__","Pievienot");
+		define("__PRS_CROSS__","Krosslinks");
+
+		define("__PRS_FB1__","Nosaukums");
+		define("__PRS_FB2__","Fails");
+		define("__PRS_FB3__","Rediģēts");
+		define("__PRS_FB4__","Izmērs");
+		define("__PRS_FB5__","Pievienot jaunu failu");
+
+		define("__PRS_CONFIRM__","Pārliecinati ?");
+
+
+	} else if (@$_CFG['user']['interface_language']==0){
+		define("__PRS_CH_FILE__", "Изменить файл");
+		define("__PRS_EL_EXISTS__", "В форме уже существует элемент с таким идентификатором !");
+		define("__PRS_ADD_IMG__", "Добавить изображение");
+		define("__PRS_INSERT__" , "Вставить");
+		define("__PRS_DZEST__","Удалить");
+		define("__PRS_PLATUMS__","Ширина");
+		define("__PRS_AUGSTUMS__","Высота ");
+		define("__PRS_ADDBLOCK__","Добавить блок");
+		define("__PRS_ADDEDITIMAGE__","Pievienot/Latbot attēlu");
+		define("__PRS_PREVIEWIMAGE__","Preview");
+		define("__PRS_APRAKSTS__","Описание");
+		define("__PRS_ERROR_1__","Нет блоков в start_repeat_block");
+		define("__PRS_DIR_ABSENT__","Директории не существует:");
+		define("__PRS_DIR_READONLY__","Директория readonly:");
+		define("__PRS_IZMERI__","Размеры");
+		define("__PRS_JABUT__","Нужно");
+		define("__PRS_GENER__","Генерировать");
+		define("__PRS_ADD__","Добавить");
+		define("__PRS_CROSS__","Кросслинк");
+
+		define("__PRS_FB1__","Название");
+		define("__PRS_FB2__","Файл");
+		define("__PRS_FB3__","Модифицирован");
+		define("__PRS_FB4__","Размер");
+		define("__PRS_FB5__","Добавить файл");
+
+		define("__PRS_CONFIRM__","Уверены ?");
+
+
+	} else {
+		define("__PRS_CH_FILE__", "Change file");
+		define("__PRS_EL_EXISTS__", "Element already exists!");
+		define("__PRS_ADD_IMG__", "Add image");
+		define("__PRS_INSERT__" , "Insert");
+		define("__PRS_DZEST__","Delete");
+		define("__PRS_PLATUMS__","Width");
+		define("__PRS_AUGSTUMS__","Height ");
+		define("__PRS_ADDBLOCK__","Add block");
+		define("__PRS_ADDEDITIMAGE__","Add/edit image");
+		define("__PRS_PREVIEWIMAGE__","Preview");
+		define("__PRS_APRAKSTS__","Description");
+		define("__PRS_ERROR_1__","start_repeat_block is void");
+		define("__PRS_DIR_ABSENT__","No such directory:");
+		define("__PRS_DIR_READONLY__","Directory is readonly:");
+		define("__PRS_IZMERI__","Sizes");
+		define("__PRS_JABUT__","Must be");
+		define("__PRS_GENER__","Generate");
+		define("__PRS_ADD__","Insert");
+		define("__PRS_CROSS__","Crosslink");
+
+		define("__PRS_FB1__","Title");
+		define("__PRS_FB2__","File");
+		define("__PRS_FB3__","Modified");
+		define("__PRS_FB4__","Size");
+		define("__PRS_FB5__","Add new file");
+
+		define("__PRS_CONFIRM__","Sure to delete ?");
+
+	}
+
+// >>> Blok perevodov
+//********************************************************************
+
+
+?>

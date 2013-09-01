@@ -1,0 +1,176 @@
+time:1348170236 data:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348170236, 
+        						 28, 
+        						 35,
+        						  1, 
+        						"2012-06-04%2017.31.jpg", 
+        						"2012-06-04%2017.31.jpg", 
+        						"a:4:{s:3:\"alt\";s:22:\"2012-06-04%2017.31.jpg\";s:5:\"width\";i:72;s:6:\"height\";i:127;s:3:\"src\";s:41:\"portfolio_original/2012-06-04%2017.31.jpg\";}")
+time:1348170236 data:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348170236, 
+        						 28, 
+        						 35,
+        						  1, 
+        						"2012-06-04%2012.24.jpg", 
+        						"2012-06-04%2012.24.jpg", 
+        						"a:4:{s:3:\"alt\";s:22:\"2012-06-04%2012.24.jpg\";s:5:\"width\";i:128;s:6:\"height\";i:72;s:3:\"src\";s:41:\"portfolio_original/2012-06-04%2012.24.jpg\";}")
+time:1348170236 data:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348170236, 
+        						 28, 
+        						 35,
+        						  1, 
+        						"2012-06-04%2012.23.jpg", 
+        						"2012-06-04%2012.23.jpg", 
+        						"a:4:{s:3:\"alt\";s:22:\"2012-06-04%2012.23.jpg\";s:5:\"width\";i:72;s:6:\"height\";i:127;s:3:\"src\";s:41:\"portfolio_original/2012-06-04%2012.23.jpg\";}")
+time:1348170236 data:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348170236, 
+        						 28, 
+        						 35,
+        						  1, 
+        						"2012-06-04%2012.01.jpg", 
+        						"2012-06-04%2012.01.jpg", 
+        						"a:4:{s:3:\"alt\";s:22:\"2012-06-04%2012.01.jpg\";s:5:\"width\";i:72;s:6:\"height\";i:127;s:3:\"src\";s:41:\"portfolio_original/2012-06-04%2012.01.jpg\";}")
+time:1348170236 data:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348170236, 
+        						 28, 
+        						 35,
+        						  1, 
+        						"2012-06-04%2012.02.jpg", 
+        						"2012-06-04%2012.02.jpg", 
+        						"a:4:{s:3:\"alt\";s:22:\"2012-06-04%2012.02.jpg\";s:5:\"width\";i:72;s:6:\"height\";i:127;s:3:\"src\";s:41:\"portfolio_original/2012-06-04%2012.02.jpg\";}")
+time:1348170236 data_result:
+time:1348170236 data_result:
+time:1348170236 data_result:
+time:1348170236 data_result:
+time:1348170236 data_result:
+time:1348172046 data:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348172046, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"019.jpg", 
+        						"019.jpg", 
+        						"a:4:{s:3:\"alt\";s:7:\"019.jpg\";s:5:\"width\";i:3648;s:6:\"height\";i:2736;s:3:\"src\";s:26:\"portfolio_original/019.jpg\";}")
+time:1348172046 data_result:MySQL server has gone away
+time:1348172048 data:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348172048, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"005.jpg", 
+        						"005.jpg", 
+        						"a:4:{s:3:\"alt\";s:7:\"005.jpg\";s:5:\"width\";i:2736;s:6:\"height\";i:3648;s:3:\"src\";s:26:\"portfolio_original/005.jpg\";}")
+time:1348172048 data_result:MySQL server has gone away
+time:1348172048 data:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348172048, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"033.jpg", 
+        						"033.jpg", 
+        						"a:4:{s:3:\"alt\";s:7:\"033.jpg\";s:5:\"width\";i:2736;s:6:\"height\";i:3648;s:3:\"src\";s:26:\"portfolio_original/033.jpg\";}")
+time:1348172048 data_result:MySQL server has gone away
+time:1348172048 data:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348172048, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"008.jpg", 
+        						"008.jpg", 
+        						"a:4:{s:3:\"alt\";s:7:\"008.jpg\";s:5:\"width\";i:2736;s:6:\"height\";i:3648;s:3:\"src\";s:26:\"portfolio_original/008.jpg\";}")
+time:1348172048 data_result:MySQL server has gone away
+time:1348172052 data:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348172052, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"024.jpg", 
+        						"024.jpg", 
+        						"a:4:{s:3:\"alt\";s:7:\"024.jpg\";s:5:\"width\";i:2736;s:6:\"height\";i:3648;s:3:\"src\";s:26:\"portfolio_original/024.jpg\";}")
+time:1348172052 data_result:MySQL server has gone away
+time:20.09.2012 20:46:52 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348174012, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"123.jpg", 
+        						"123.jpg", 
+        						"a:4:{s:3:\"alt\";s:7:\"123.jpg\";s:5:\"width\";i:2197;s:6:\"height\";i:3648;s:3:\"src\";s:26:\"portfolio_original/123.jpg\";}")
+time:20.09.2012 20:46:52 mysql_error:MySQL server has gone away
+time:20.09.2012 20:46:55 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348174015, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"117.jpg", 
+        						"117.jpg", 
+        						"a:4:{s:3:\"alt\";s:7:\"117.jpg\";s:5:\"width\";i:2736;s:6:\"height\";i:3648;s:3:\"src\";s:26:\"portfolio_original/117.jpg\";}")
+time:20.09.2012 20:46:55 mysql_error:MySQL server has gone away
+time:20.09.2012 20:47:02 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348174022, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"110.jpg", 
+        						"110.jpg", 
+        						"a:4:{s:3:\"alt\";s:7:\"110.jpg\";s:5:\"width\";i:2736;s:6:\"height\";i:3648;s:3:\"src\";s:26:\"portfolio_original/110.jpg\";}")
+time:20.09.2012 20:47:02 mysql_error:MySQL server has gone away
+time:20.09.2012 20:47:03 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348174023, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"104.jpg", 
+        						"104.jpg", 
+        						"a:4:{s:3:\"alt\";s:7:\"104.jpg\";s:5:\"width\";i:3648;s:6:\"height\";i:2736;s:3:\"src\";s:26:\"portfolio_original/104.jpg\";}")
+time:20.09.2012 20:47:03 mysql_error:MySQL server has gone away
+time:21.09.2012 10:38:01 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348223881, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"Hydrangeas.jpg", 
+        						"Hydrangeas.jpg", 
+        						"a:4:{s:3:\"alt\";s:14:\"Hydrangeas.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:768;s:3:\"src\";s:33:\"portfolio_original/Hydrangeas.jpg\";}")
+time:21.09.2012 10:38:01 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348223881, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"Jellyfish.jpg", 
+        						"Jellyfish.jpg", 
+        						"a:4:{s:3:\"alt\";s:13:\"Jellyfish.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:768;s:3:\"src\";s:32:\"portfolio_original/Jellyfish.jpg\";}")
+time:21.09.2012 10:38:01 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348223881, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"Lighthouse.jpg", 
+        						"Lighthouse.jpg", 
+        						"a:4:{s:3:\"alt\";s:14:\"Lighthouse.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:768;s:3:\"src\";s:33:\"portfolio_original/Lighthouse.jpg\";}")
+time:21.09.2012 10:38:01 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348223881, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"Chrysanthemum.jpg", 
+        						"Chrysanthemum.jpg", 
+        						"a:4:{s:3:\"alt\";s:17:\"Chrysanthemum.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:768;s:3:\"src\";s:36:\"portfolio_original/Chrysanthemum.jpg\";}")
+time:21.09.2012 10:38:01 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348223881, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"Desert.jpg", 
+        						"Desert.jpg", 
+        						"a:4:{s:3:\"alt\";s:10:\"Desert.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:768;s:3:\"src\";s:29:\"portfolio_original/Desert.jpg\";}")
+time:21.09.2012 10:38:01 mysql_error:MySQL server has gone away
+time:21.09.2012 10:38:01 mysql_error:MySQL server has gone away
+time:21.09.2012 10:38:01 mysql_error:MySQL server has gone away
+time:21.09.2012 10:38:01 mysql_error:MySQL server has gone away
+time:21.09.2012 10:38:01 mysql_error:MySQL server has gone away
+time:21.09.2012 10:38:01 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348223881, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"Koala.jpg", 
+        						"Koala.jpg", 
+        						"a:4:{s:3:\"alt\";s:9:\"Koala.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:768;s:3:\"src\";s:28:\"portfolio_original/Koala.jpg\";}")
+time:21.09.2012 10:38:01 mysql_error:MySQL server has gone away
+time:21.09.2012 10:38:22 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348223902, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"Tulips.jpg", 
+        						"Tulips.jpg", 
+        						"a:4:{s:3:\"alt\";s:10:\"Tulips.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:768;s:3:\"src\";s:29:\"portfolio_original/Tulips.jpg\";}")
+time:21.09.2012 10:38:22 mysql_error:
+time:21.09.2012 10:38:22 inserting:INSERT INTO _mod_portfolio (created, category_id, sort_id, active, title_eng, description_eng, image_small) VALUES (1348223902, 
+        						 28, 
+        						 36,
+        						  1, 
+        						"Penguins.jpg", 
+        						"Penguins.jpg", 
+        						"a:4:{s:3:\"alt\";s:12:\"Penguins.jpg\";s:5:\"width\";i:1024;s:6:\"height\";i:768;s:3:\"src\";s:31:\"portfolio_original/Penguins.jpg\";}")
+time:21.09.2012 10:38:22 mysql_error:

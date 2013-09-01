@@ -1,0 +1,8 @@
+<?php
+define("__MYL_B_ADD_", "Add new");
+define("__MYL_B_DEL_", "Delete selected");
+define("__MYL_C_DEL_", "Sure to delete selected elements?");
+define("__MYL_C_COPY_", "Copy");
+define("__MYL_C_MOVE_", "Move");
+define("__MYL_C_COPY_MOVE_", "Copy/Move");
+?>

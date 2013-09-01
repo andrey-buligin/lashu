@@ -1,0 +1,26 @@
+html, body {height:100%;margin:0px}
+* {font-family:tahoma !important;font-size:11px}
+
+
+#main-container {border-collapse:collapse;height:100%;background:#efefef}
+#main-container td {padding:0px}
+
+h1 {background:#f7a208;margin:5px 0px;font-size:10px;color:#ffffff;padding:1px 5px;font-weight:normal;}
+#r-block {background:url("../images/v-spacer.gif") left top repeat-y #efefef;padding-left:3px !important;vertical-align:top}
+#r-block select {font-size:11px}
+
+.button {border:0px;background-color:#F7A208;color:#ffffff;}
+
+#editorWindow {width:100%;height:100%;border:0px}
+#footer {padding:4px;text-align:center}
+
+div.spacer {font-size:1px;height:3px;background-image:url(../images/spacer_horizontal.gif);color:#FFFFFF}
+.default {border:1px solid #BDBABD}
+
+table.insite-form {border-collapse:collapse;background-color:#EFEFEF;color:#000000;}
+table.insite-form TD {white-space:nowrap;padding:0px 0px 0px 25px;height:18px}
+table.insite-form .input {border:1px solid #BDBABD}
+table.insite-form .title {font-weight:bold;}
+table.insite-form .spacer {background-image:url(../images/spacer_horizontal.gif); height:3px !important;font-size:1px}
+table.insite-form TD.white-spacer {height:10px;font-size:7px;background-color:#FFFFFF}
+table.insite-form TH {font-weight:bold;background:#08515A;color:#FFFFFF}

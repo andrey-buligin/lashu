@@ -1,0 +1,190 @@
+<?php
+
+//======================================================================================
+// <<< sections.php
+
+define("__SCT_1__", "CATEGORIES");
+define("__SCT_2__", "MESSAGES");
+define("__SCT_3__", "TEMPLATES");
+define("__SCT_4__", "MODULES");
+define("__SCT_5__", "ADMIN TOOLS");
+define("__SCT_6__", "DEV. TOOLS");
+define("__SCT_7__", "SETTINGS");
+define("__SCT_8__", "MySQL MANAGER");
+define("__SCT_9__", "FILE MANAGER");
+define("__SCT_10__", "BACKUP");
+define("__SCT_11__", "UPDATE");
+define("__SCT_12__", "TOOLS");
+define("__SCT_13__", "USER MANAGER");
+define("__SCT_14__", "LOGS");
+define("__SCT_15__", "TODO");
+define("__SCT_16__", "SYSLOG");
+
+// >>> sections.php
+//======================================================================================
+// <<< iframe_categories.php
+
+define("__IFC_1__", "Settings");
+define("__IFC_2__", "Properties");
+define("__IFC_3__", "Logs");
+define("__IFC_4__", "Permissions");
+define("__IFC_5__", "Content");
+define("__IFC_6__", "Input module for this category is not set. You are automatically moved from Content to Settings.");
+define("__IFC_7__", "Input module for this category is not set. You are automatically moved from Content to Settings.");
+define("__IFC_8__", "Select category by clicking on it");
+
+// >>> iframe_categories.php
+//======================================================================================
+// <<< properties.php
+
+define("__PRP_1__", "You dont have permissions to properties of this category");
+define("__PRP_2__", "Change Templates");
+define("__PRP_3__", "Property template 1");
+define("__PRP_4__", "Property template 2");
+define("__PRP_5__", "Save properties");
+define("__PRP_6__", "Save properties");
+define("__PRP_7__", "Category properties:");
+define("__PRP_8__", "Select property template for category:");
+
+// >>> properties.php
+//======================================================================================
+// <<<  tree_events.js.php
+
+define("__TRA_1__", "Move");
+define("__TRA_2__", "Move Up");
+define("__TRA_3__", "Move Down");
+define("__TRA_4__", "Insert");
+define("__TRA_5__", "Copy");
+define("__TRA_6__", "Insert to other language");
+define("__TRA_7__", "Copy to other language");
+define("__TRA_8__", "Open Content in popup");
+define("__TRA_9__", "Edit Category");
+define("__TRA_10__", "Create New Category");
+define("__TRA_11__", "Deactivate");
+define("__TRA_12__", "Activate");
+define("__TRA_13__", "Disable");
+define("__TRA_14__", "Enable");
+define("__TRA_15__", "Delete");
+define("__TRA_16__", "Preview");
+define("__TRA_17__", "Other");
+define("__TRA_18__", "Copy Content");
+define("__TRA_19__", "Sort Categories");
+define("__TRA_20__", "Select only one category !");
+define("__TRA_21__", "Sure ?");
+define("__TRA_22__", "Category actions");
+
+// >>>  tree_events.js.php
+//======================================================================================
+// <<< categories.tpl.php
+
+define("__CTP_1__", "Display mode:");
+define("__CTP_2__", "Title");
+define("__CTP_3__", "Title + ID");
+define("__CTP_4__", "Directories");
+define("__CTP_5__", "Permissions");
+define("__CTP_6__", "Project's structure");
+define("__CTP_7__", "Additional options");
+define("__CTP_8__", "Current Category");
+
+// >>> categories.tpl.php
+//======================================================================================
+// <<< settings.php
+
+define("__STT_1__", "You dont have permissions to settings of this category");
+define("__STT_2__", "Category settings");
+define("__STT_3__", "Save settings");
+define("__STT_4__", "Mirror settings");
+define("__STT_5__", "Linked categories:");
+define("__STT_6__", "Set/Update mirror");
+define("__STT_7__", "Title :");
+define("__STT_8__", "is link");
+define("__STT_9__", "Directory :");
+define("__STT_10__", "Insert before");
+define("__STT_11__", "Active :");
+define("__STT_12__", "Enabled :");
+define("__STT_13__", "Settings :");
+define("__STT_14__", "Property template 1");
+define("__STT_15__", "Property template 2");
+define("__STT_16__", "End");
+define("__STT_17__", "First");
+define("__STT_18__", "Create Category");
+define("__STT_19__", "Save and close");
+define("__STT_20__", "Create and continue");
+define("__STT_21__", "Edit single category");
+define("__STT_22__", "Save and close");
+define("__STT_23__", "New Root category");
+
+define("__STT_24__", "Category type");
+define("__STT_25__", "Directory (for real)");
+define("__STT_26__", "Language");
+define("__STT_27__", "Virtual");
+define("__STT_28__", "Real");
+define("__STT_29__", "Multilanguage");
+define("__STT_30__", "Other setting after creation by default tools");
+
+// >>> settings.php
+//======================================================================================
+// <<< _get_sets.inc.php
+
+define("__GST_1__", "Set");
+define("__GST_2__", "new set");
+define("__GST_3__", "edit set");
+define("__GST_4__", "Output template");
+define("__GST_5__", "Input module");
+define("__GST_6__", "Output module");
+
+// _get_data.inc.php
+define("__GST_7__", "Manual");
+
+// >>> _get_sets.inc.php
+//======================================================================================
+// <<< popup.edit_user.php
+
+define("__PEU_1__", "Add/Edit User");
+define("__PEU_2__", "Save and continue");
+define("__PEU_3__", "Save and close");
+define("__PEU_4__", "Active");
+define("__PEU_5__", "Login");
+define("__PEU_6__", "New");
+define("__PEU_7__", "Password");
+define("__PEU_8__", "Interface Language");
+define("__PEU_9__", "Name");
+define("__PEU_10__", "Surname");
+define("__PEU_11__", "Phone");
+define("__PEU_12__", "Email");
+define("__PEU_13__", "Link replace from");
+define("__PEU_14__", "Link replace to");
+
+
+// >>> popup.edit_user.php
+//======================================================================================
+// <<< top.tpl.php
+
+define("__TOP_1__", "Logged user:");
+define("__TOP_2__", "Logout");
+define("__TOP_3__", "Edit profile");
+
+// >>> top.tpl.php
+//======================================================================================
+// <<< iframe_modules.tpl.php
+
+	define("Module_name",	 	"Moduļa nosaukums");
+	define("Module_file", 		"Moduļa fails");
+	define("Module_Category", 	"Module Kategorija");
+	define("Description", 		"Apraksts");
+	define("Register", 			"Registrēt");
+
+// >>> iframe_modules.tpl.php
+//======================================================================================
+// <<< iframe_modules.php
+
+	define("ID",	 		"ID");
+	define("Title",	 		"Title");
+	define("Rep",	 		"Rep");
+	define("Group",	 		"Group");
+	define("Info",	 		"Info");
+
+
+// >>> iframe_modules.php
+//======================================================================================
+?>

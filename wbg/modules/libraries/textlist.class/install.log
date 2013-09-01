@@ -1,0 +1,22 @@
+mkdir('/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class')
+chmod('/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class',0777)
+sql query: INSERT INTO wbg_modules SET
+        				id			= '1',
+        				title		= 'textlist.class',
+        				file		= 'libraries/textlist.class/textlist.class.php',
+        				type		= '5',
+        				description	= 'Eto biblioteka na kotoroj bazirujutsa nekotorije input moduli. Naprimer textlist',
+        				category_id	= '5',
+        				repository_name = 'http://modules.web-gooroo.com',
+        				repository_id = '4'
+create file: '/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class/textlist.class.php'
+chmod('/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class/textlist.class.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class/onclick.js'
+chmod('/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class/onclick.js',0777)
+create file: '/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class/popup.copy_data.php'
+chmod('/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class/popup.copy_data.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class/popup.move_data.php'
+chmod('/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class/popup.move_data.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class/_list_template_table.tpl'
+chmod('/usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class/_list_template_table.tpl',0777)
+create uninstall file : /usr/local/www/sites/projects_andrej/wake/wbg/modules/libraries/textlist.class/_uninstall_module.php

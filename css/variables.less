@@ -1,0 +1,52 @@
+/************************************************************************************/
+/* Variables */
+
+	@img-url: "images/skins/hanna/building/";
+	@link-color: #8B6A12;
+	@dark-yellow: #8B6A12;
+	@dark-grey: #5e5d5d;
+	@yellow: #D0AB47;
+	@error-helper-color: #e46c6e;
+	@table-bg-color: rgba(249, 237, 215, 0.4);
+	@table-head-bg-color: rgba(249, 237, 215, 0.7);
+	@green: #576F3D;
+	@light-green: green;
+
+/* Variables */
+/************************************************************************************/
+/* Mixins */
+
+	.perspective(@args) {
+		-webkit-perspective: @args;
+		-moz-perspective: @args;
+		-o-perspective: @args;
+		-ms-perspective: @args;
+		perspective: @args;
+	}
+
+	.preserve3D() {
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+		-o-transform-style: preserve-3d;
+		-ms-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+	}
+
+	.backfaceVisibility(@args) {
+		-webkit-backface-visibility: @args;
+		-moz-backface-visibility: @args;
+		-o-backface-visibility: @args;
+		-ms-backface-visibility: @args;
+		backface-visibility: @args
+	}
+
+	.transform-origin(@rgs) {
+		-webkit-transform-origin: @rgs;
+		-moz-transform-origin: l@rgs;
+		-o-transform-origin: @rgs;
+		-ms-transform-origin: l@rgs;
+		transform-origin: @rgs;
+	}
+
+/* Mixins */
+/************************************************************************************/

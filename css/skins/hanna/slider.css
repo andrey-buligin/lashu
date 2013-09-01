@@ -1,0 +1,345 @@
+/* Sliding gallery */
+
+#gelleryListPart
+{
+    padding-bottom: 0 !important;
+}
+
+#categoryTitle
+{
+	position: absolute;
+}
+
+#categoryTitle h1
+{ 
+	font-size: 14px;
+	color: #cbcbcb;
+	position: absolute;
+	left: 205px;
+    top: 430px;
+    z-index: 2;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 #FFFFFF, 0 -1px 0 #CBCBCB;
+}
+
+#rg-gallery
+{
+	margin: 0 auto;
+    width: 560px;
+}
+
+#share-gallery-toolbar
+{
+    position: absolute;
+    width: 100%;
+    text-align: right;    
+}
+
+#share-gallery-toolbar .addthis_toolbox.addthis_default_style 
+{
+    width: 140px;
+    right: 0;
+    top: 3px;
+    position: absolute;
+}
+
+.rg-image-wrapper
+{
+    position: relative;
+    padding: 20px 0 0 0;
+    background: transparent;
+    min-height: 20px;
+    height: 387px;
+	text-shadow: #FFF 0px 1px 0px, #cbcbcb 0px -1px 0px;
+}
+
+.rg-image-container
+{
+	margin: 0 auto;
+	width: 560px;
+    height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+
+.rg-image
+{
+	height: 100%;
+	width: 100%;
+}
+
+.rg-image.loaded
+{
+	-moz-box-shadow:0px 0px 5px #999;
+    -webkit-box-shadow:0px 0px 5px #999;
+    box-shadow:0px 0px 5px #999;
+    /*border: 1px solid #222;*/
+}
+
+.rg-image img
+{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.rg-image-pos
+{
+    position: absolute;
+    right: 0px;
+	top: 430px;
+	color: #c1c1c1;
+	font-size: 14px;
+}
+
+.rg-image-nav a
+{
+    position: absolute;
+    left: 0px;
+    z-index: 2;
+    background: url(images/skins/konsus/building/arrow-back-white.png) no-repeat 10% center;
+    width: 30%;
+    height: 100%;
+    text-indent: -9000px;
+    cursor: pointer;
+    outline: none;
+}
+
+.rg-image-nav a.rg-image-nav-next
+{
+    right: 0px;
+    left: auto;
+    background: url(images/skins/konsus/building/arrow-next-white.png) no-repeat 90% center;
+}
+
+a.rg-image-slideshow
+{
+	position: absolute;
+	top: 430px;
+    width: 140px;
+    left: 240px;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #cbcbcb;
+}
+
+a.rg-image-slideshow:hover
+{
+	color: #8b8b8b;
+	background: none;
+}
+
+.rg-image-nav a.rg-image-nav-prev:hover,
+.rg-image-nav a.rg-image-nav-next:hover,
+.es-nav span:hover
+{
+	transform: scale(1.05);
+	-ms-transform: scale(1.05); /* IE 9 */
+	-webkit-transform: scale(1.05); /* Safari and Chrome */
+	-o-transform: scale(1.05); /* Opera */
+	-moz-transform: scale(1.05); /* Firefox */
+}
+
+.rg-caption-wrapper
+{
+    left: 585px;
+    position: absolute;
+    top: 20px;
+	width: 160px;
+	height: 380px;
+	padding: 10px;
+	background: #f2f2f2;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+}
+
+.rg-caption
+{
+    margin-top: 15px;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.rg-description
+{
+    font-size: 10px;
+	text-transform: uppercase;
+}
+
+.rg-view
+{
+    height: 30px;
+}
+
+.rg-view a
+{
+    display: block;
+    float: right;
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+    background: #464646 url(images/skins/konsus/building/views.png) no-repeat top left;
+    border: 3px solid #464646;
+    opacity: 0.8;
+}
+
+.rg-view a:hover
+{
+    opacity: 1.0;
+}
+
+.rg-view a.rg-view-full
+{
+    background-position: 0px 0px;
+}
+
+.rg-view a.rg-view-selected
+{
+    background-color: #6f6f6f;
+    border-color: #6f6f6f;
+}
+
+.rg-view a.rg-view-thumbs
+{
+    background-position: 0px -16px;
+}
+
+.rg-loading
+{
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #000 url(images/skins/konsus/building/ajax-loader.gif) no-repeat center
+        center;
+    margin: -23px 0px 0px -23px;
+    z-index: 100;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+/* Elastislide Style */
+.es-carousel-wrapper
+{
+    background: #fff;
+    padding: 10px 27px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.es-carousel-wrapper.no-nav
+{
+    padding: 10px 0;   
+}
+
+.es-carousel-wrapper.no-nav .es-nav
+{
+    display: none;
+}
+
+.es-carousel-wrapper.no-nav .es-carousel ul li
+{
+    padding: 0 0px 0 0;
+}
+
+.es-carousel
+{
+    overflow: hidden;
+    background: #fff;
+}
+
+.es-carousel ul
+{
+    display: none;
+}
+
+.es-carousel ul li
+{
+    height: 100%;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 0 0 0 0px;
+}
+
+.es-carousel ul li a
+{
+    display: block;
+    border-style: solid;
+    border-color: #222;
+    opacity: 0.8;
+    -webkit-touch-callout: none;
+    /* option */
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.es-carousel ul li:hover a,
+.es-carousel ul li.selected a
+{
+    border-color: #f39c28;
+    opacity: 1.0;
+}
+
+.es-carousel ul li a img
+{
+    border: none;
+    max-height: 122px;
+    max-width: 100%;
+}
+
+.es-nav span
+{
+    position: absolute;
+    top: 27px;
+    left: 0;
+    background: url(images/skins/konsus/building/arrow-prev.png) 5px 0  no-repeat ;
+    width: 19px;
+    height: 36px;
+    text-indent: -9000px;
+    cursor: pointer;
+}
+
+.es-nav span.es-nav-next
+{
+    right: 0;
+    left: auto;
+    background: url(images/skins/konsus/building/arrow-next.png) -5px 0 no-repeat;
+}
+
+/*horizontal carousel block*/
+.block-horizontal-image .es-nav span
+{
+    height: 100px;
+    background-position: 0 -12px;
+}
+
+#banners
+{
+	float: right;
+	margin: -140px 0 0 0;
+	width: 160px;
+	min-height: 120px;
+	padding: 10px;
+	background: #f2f2f2;
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+}
+
+#footerContainer
+{
+	clear: both;
+}

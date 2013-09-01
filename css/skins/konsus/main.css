@@ -1,0 +1,485 @@
+/************************************************************************************/
+/* COMMON */
+	
+	html {overlow:auto;}
+	body {
+		margin: 0px auto; 
+		padding: 0;
+		height:100%;
+		width: 990px;
+		background:#fff;
+		color:#707070;
+		font-family: Palatino Linotype, Times New Roman, Verdana;
+		font-size:12px;
+		overlow:auto;
+	}
+	
+	form 	{margin:0 0 0 0;}
+	a 		{ text-decoration:none; color:#707070; outline:none; }
+	a:hover	{ text-decoration:underline}
+	img		{border:0px}
+
+	.orange	{ color:#f7941d}
+	.grey	{ color:#707070;}
+	.upcase	{ text-transform:uppercase}
+	.f-right{ float:right }
+	.f-left { float:left }
+		
+	.spacer,.clear { clear:both; font-size:0px; line-height:0px;}
+	.readmore { margin:10px 0 5px 0}
+	.readmore a {color:#333333}
+	
+/* COMMON */	
+/************************************************************************************/
+/* Content */	
+
+	#headerContainer	{ text-align: left; padding:40px 0px 35px 65px }
+	#galleryContainer	{ 
+		margin-left:54px; 
+		height:372px; 
+		border:2px solid #636363;
+	}
+	#headerContainer.static {
+		padding-bottom:0px;
+		height:222px;
+	}
+	#content { padding:0 0 0 20px;}
+	
+	#gelleryListPart		 { text-align:left; margin-top:45px; padding-bottom:120px;}
+	#gelleryListPart img 	{ margin:2px 0 0px 0; }
+	#gelleryListPart span	 { font-size:17px; color:#a9a9a9;}
+
+	#footerContainer{ 
+		width:990px;
+		padding:22px 0px 0px 0px; 
+		font-size:12px; 
+		color:#3f3f3f; 
+	}
+	#footerContainer.static{ 
+		position:static;
+		width:990px;
+		padding:22px 80px 20px 0px; 
+		font-size:12px; 
+		color:#3f3f3f;
+		clear:both;
+	}
+	#contacts	{ 
+		text-align:right; 
+		float:left;
+		padding:0 0 15px 0;
+		width:215px;
+		font-size:12px; 
+		color:#707070;
+	}
+	#footerContainer span { font-size:9px;}
+	
+	#categoryTitle h1 { 
+		margin:0px 47px 10px 0;
+		font-size:20px;
+		color:#7a7a7a;
+		font-weight:normal;
+		text-align:right;
+	}
+	
+	/* innerFade */
+	.innerfade {
+	}
+	#innerFadeContainer
+	{
+		position: relative;
+		height: 440px;
+		left: 320px;
+	}
+	#fade {
+	    position:absolute;
+	    z-index:1;
+		width: 660px;
+		overflow: hidden;
+	}
+	#fade ol, ul {
+	    list-style: none outside none;
+	    margin: 0;
+	    padding: 0;
+	}
+	#fadeImgButtons {
+	    height: 153px;
+	}
+	#nextFade {
+	    float: right;
+	    position: relative;
+	    z-index: 2;
+	}
+	#prevFade {
+	    float: left;
+	    position: relative;
+	    z-index: 2;
+	}
+
+/* Content */	
+/************************************************************************************/
+/* Navigation */
+
+	.menu	{ padding:0; margin:0; list-style: none;}
+	.menu li	{ 
+		font-size:14px; 
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+	}
+	
+	#albumSelect   { text-decoration:none; }
+	#albumSelect a { text-decoration:none;}
+	#selectLink	  { }
+	#selectLink:hover  {  }
+	
+	#albumNavContainter { position:absolute; overflow:hidden;}
+	#albumNav	  { position:relative; top:-250px; height:250px; width:152px; left:-25px; line-height:14px;}
+	#albumNav li  { background:#fff; text-align:center; position:relative; padding:2px 2px 2px 2px;}
+	#albumNav li a{ color:#f7941d; font-family:Goudy Old Style; font-size:14px; }
+	#albumNav li a:hover { color:#e1e1e1; }
+	
+	
+/* Navigation */	
+/************************************************************************************/
+/* Scrolling part */
+
+	.sc_menu_button {
+		float:left;
+		width:32px;
+		padding-top:70px;
+	}	
+	.sc_menu_button img { cursor:pointer;}
+	.sc_menu_button.forward { float:right }
+	
+	#sc_menu {
+		z-index:1;
+		padding:0px;
+		margin:0px;
+		height: 122px;
+		width: 900px;
+		_overflow: hidden;
+	}
+	ul.blocks {
+		padding:0px;
+		margin:0px;
+		width: 990px;
+		display: block;
+		height: 122px;
+	}
+	ul.blocks li {
+		float: left;
+		display: block;
+		width:129px;
+		height:122px;
+	}
+	ul.blocks li a {
+		padding: 0 4px 0 4px;
+		display: block;
+		text-decoration: none;
+	}
+	
+	.scroll-pane {
+		width:900px;
+		float: left;
+		padding: 0px;
+		margin: 0;
+		list-style: none;
+	}
+	
+	.jScrollPaneContainer {
+		position: relative;
+		overflow: hidden;
+		z-index: 1;
+		padding-top:18px;
+	}
+	
+	.jScrollPaneTrack {
+		position: absolute;
+		cursor: pointer;
+		left: 0;
+		top: 0;
+		width: 100%;
+		background: url('images/skins/konsus/building/scrollBg.jpg') top left repeat-x;
+	}
+	
+	.jScrollIntervalTrack { 
+		position: absolute;
+		text-indent: -2000px !important; 
+	}
+	
+	.jScrollPaneDrag {
+		position: absolute;
+		background: #f89e33;
+		cursor: pointer;
+		overflow: hidden;
+	}
+	
+	.jScrollPaneDragLeft {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		overflow: hidden;
+		background: url('images/skins/konsus/building/scrollButton.jpg') top left no-repeat;
+		width:5px;
+		height:8px;
+	}
+	
+	.jScrollPaneDragRight {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		overflow: hidden;
+		background: url('images/skins/konsus/building/scrollButton.jpg') top right no-repeat;
+		width:5px;
+		height:8px;
+	}
+	a.jScrollArrowLeft {
+		display: block;
+		position: absolute;
+		z-index: 10;
+		top: 0px;
+		left: 0px;
+		text-indent: -2000px !important; 
+		height: 14px;
+		width: 26px;
+		
+		background: url('images/skins/konsus/building/back.jpg') top left no-repeat;
+	}
+
+	a.jScrollArrowRight {
+		display: block;
+		position: absolute;
+		z-index: 10;
+		top: 0px;
+		right: 00px;
+		height: 14px;
+		width: 26px;
+		text-indent: -2000px !important; 
+		background: url('images/skins/konsus/building/forward.jpg') top left no-repeat;
+	}
+
+	a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+		/*background-color: #f00;*/
+	}
+	
+	.yui-panel-container { background: none;}
+	
+	.yui-skin-sam .yui-panel { display:nonee; background:none !important; border-bottom:0px;  border:none !important; }
+	.yui-skin-sam .yui-panel .hd { display:nonee; background:none !important; border-bottom:0px; height:22px; width:350px;  position:absolute; z-index:10; border:none !important;}
+	.yui-skin-sam .yui-panel .bdd { topp:-22px; }
+	.yui-skin-sam .yui-panel { background:white !important;}
+	.yui-skin-sam .yui-panel .container-close { z-index:12;}
+	.underlay { display:none;}
+/************************************************************************************/
+/* Popup images */
+
+	#loader {
+		position:absolute;
+		z-index:1000;
+		left:34%; 
+		top:10%; 
+		border:0px solid red;
+	}
+	.popup-image-container {
+		border:1px solid black ;
+		position:absolute;
+		z-index:1000;
+	}.popup-image {
+		cursor:move ;
+	}
+	.popup-close  {
+		background:url("http://yui.yahooapis.com/2.8.0r4/build/assets/skins/sam/sprite.png") no-repeat scroll 0 -300px transparent;
+		cursor:pointer;
+		height:15px;
+		position:absolute;
+		right:6px;
+		top:5px;
+		width:25px;
+		overflow:hidden;
+		text-decoration:none;
+		text-indent:-10000em;
+	}
+	
+	#aboutMe {
+	
+	}
+	
+	#projectDescriptionContainer
+	{
+		position: absolute;
+		margin-top: -272px;
+		margin-left: 382px;
+		width: 550px;
+		height: 227px;
+		font-size: 11px;
+		font-family: Palatino Linotype;
+	}
+	#projectDescriptionContainer .top-bg
+	{
+		background: url('images/skins/konsus/content-top-border.gif') top left no-repeat;
+		width: 549px;
+		height: 17px;
+	}
+	#projectDescriptionContainer .bottom-bg
+	{
+		background: url('images/skins/konsus/content-bottom-border.gif') top left no-repeat;
+		width: 549px;
+		height: 17px;
+	}
+	#projectDescriptionContainer .projectDescription
+	{
+		background: #f3f3f3;
+		width: 518px;
+		padding:0 15px;
+	}
+	#projectDescriptionContainer .projectDescription h2
+	{
+		padding: 0 0px;
+		margin: 0;
+		text-align: right;
+	}
+	#projectDescriptionContainer .projectDescription div.text
+	{
+		padding: 0 0px;
+		text-align: justify;
+	}
+	
+	#projectDescriptionContainer .scroll-pane
+	{
+		width: 100%;
+		height: 160px;
+		overflow: auto;
+		float: none !important;
+	}
+	
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+#projectDescriptionContainer  .jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+#projectDescriptionContainer  .jspPane
+{
+	position: absolute;
+}
+
+#projectDescriptionContainer  .jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 8px;
+	height: 100%;
+	background: #f3f3f3;
+}
+
+#projectDescriptionContainer  .jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+#projectDescriptionContainer  .jspVerticalBar *,
+#projectDescriptionContainer  .jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+#projectDescriptionContainer  .jspCap
+{
+	display: none;
+}
+
+#projectDescriptionContainer  .jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+#projectDescriptionContainer  .jspTrack
+{
+	background: #a8a8a8;
+	position: relative;
+}
+
+#projectDescriptionContainer  .jspDrag
+{
+	background: #f69d31;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+#projectDescriptionContainer  .jspHorizontalBar .jspTrack,
+#projectDescriptionContainer  .jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+#projectDescriptionContainer  .jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+#projectDescriptionContainer  .jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+#projectDescriptionContainer  .jspVerticalBar .jspArrow
+{
+	height: 8px;
+}
+
+#projectDescriptionContainer  .jspHorizontalBar .jspArrow
+{
+	width: 10px;
+	float: left;
+	height: 100%;
+}
+
+#projectDescriptionContainer  .jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+#projectDescriptionContainer  .jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html #projectDescriptionContainer  .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+#poweredBy
+{
+	position: absolute;
+	padding-top: 15px;
+}
+
+#poweredBy img
+{
+	vertical-align: middle;
+	margin: 0 3px;
+}

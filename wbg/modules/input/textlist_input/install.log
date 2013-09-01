@@ -1,0 +1,32 @@
+mkdir('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input')
+chmod('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input',0777)
+sql query: INSERT INTO wbg_modules SET
+        				id			= '1',
+        				title		= 'textlist_input',
+        				file		= 'input/textlist_input/textlist_input.php',
+        				type		= '1',
+        				description	= 'Наиболее часто используемый модуль. Модуль для ввода текстовой информации.',
+        				category_id	= '1',
+        				repository_name = 'http://modules.web-gooroo.com',
+        				repository_id = '3'
+create file: '/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/textlist_input.php'
+chmod('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/textlist_input.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/_list_functions.php'
+chmod('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/_list_functions.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/_list_template_table.tpl'
+chmod('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/_list_template_table.tpl',0777)
+create file: '/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/_translations.php'
+chmod('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/_translations.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/onclick.js'
+chmod('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/onclick.js',0777)
+create file: '/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/popup.copy_data.php'
+chmod('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/popup.copy_data.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/popup.move_data.php'
+chmod('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/popup.move_data.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/wbg_make_search.php'
+chmod('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/wbg_make_search.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/wbg_seo_sitemap.php'
+chmod('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/wbg_seo_sitemap.php',0777)
+create file: '/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/wbg_set_crosslink.php'
+chmod('/usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/wbg_set_crosslink.php',0777)
+create uninstall file : /usr/local/www/sites/projects_andrej/cesu_festivals/wbg/modules/input/textlist_input/_uninstall_module.php

@@ -1,0 +1,55 @@
+TABLE.insite-form * {font:11px Tahoma}
+
+TABLE.insite-form {border-collapse:collapse; color:#000000; }
+TABLE.insite-form TD {white-space:nowrap;padding:0px 0px 0px 8px;height:22px}
+TABLE.insite-form .input {border:1px solid #a8a8aa}
+TABLE.insite-form .title {font-weight:normal; color:#444444}
+TABLE.insite-form TD.white-spacer {height:10px;font-size:7px;}
+TABLE.insite-form .error {color:red !important}
+TABLE.insite-form .error * {color:red !important}
+TABLE.insite-form .obj-spacer {font-size:5px;height:10px;}
+TABLE.insite-form .textline {background:url('images/button-bg.gif') bottom repeat-x #f7a208;  font-weight:bold; color:#ffffff}
+TABLE.insite-form .textline2 {background:url('images/header-bg.gif') bottom repeat-x #f7a208;  font-weight:bold; color:#ffffff}
+
+TABLE.insite-form SELECT {width:200px}
+
+TABLE.insite-form TR.spacer TD {background-image:url('images/spacer_horizontal.gif'); height:3px}
+DIV.resImgElement .input {border:1px solid #BDBABD !important}
+
+DIV.resImgElement, DIV.resImgElement * {font-family:Tahoma !important;font-size:11px !important;}
+
+
+/*********************************************************/
+/** [[[ Eto image Element  **/
+
+	TABLE.ins_image 					{border:1px solid #a8a8aa;margin:3px 0px;background:#f5f5f5}
+	TABLE.ins_image TD 					{padding:0px}
+
+	TABLE.ins_image .add_size 			{border-left:1px solid #a8a8aa;text-align:center;padding:6px 4px;vertical-align:top;}
+	TABLE.ins_image .c1 				{background:#e7e6e6; text-align:center}
+	TABLE.ins_image .c2 				{background:#e7e6e6; text-align:center}
+	TABLE.ins_image .button 			{font-size:10px; width:auto; background:#a8a8aa; border:1px solid #a8a8aa; color:#ffffff}
+
+	TABLE.ins_image .img-container 		{border:1px solid #a8a8aa;height:100px;width:100px;background:#FFFFFF;text-align:center;vertical-align : middle}
+	TABLE.ins_image .img-container TD 	{padding:0px}
+
+/** ]]] Eto image Element  **/
+/*********************************************************/
+	
+	
+	TABLE.collapsed {border-Collapse:collapse;width:100%}
+	TABLE.collapsed TD {padding:0px 3px;background:#C6C7C6;}
+
+
+.bookmark-container {border-bottom:3px solid #f9b200; width:100%; border-collapse:collapse}
+.bookmark-container TD {white-space:nowrap; padding:0px;}
+.bookmark-container TD div {padding:5px 7px 3px 10px}
+.bookmark-container TD img {margin:0px; border:0px; padding:0px; vertical-align:middle; position:absolute}
+
+
+table.fileblock 		{border-collapse:collapse}
+table.fileblock * 		{color:#000000}
+table.fileblock th 		{background:#e6e6e6; padding:4px 6px; border:1px solid #ffffff; text-align:left}
+table.fileblock td 		{border:1px solid #ffffff; border-bottom:2px solid #e6e6e6; padding:4px 5px}
+table.fileblock td a 	{color:#000000; text-decoration:none}
+table.fileblock td a:hover {text-decoration:underline}

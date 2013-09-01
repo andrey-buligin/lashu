@@ -1,0 +1,38 @@
+.sitetree * 		{font-size:11px; font-family:Tahoma; white-space:nowrap}
+.sitetree img 		{vertical-align:middle;}
+.sitetree .cat 		{cursor:pointer}
+.sitetree .over 	{background:#ffffff}
+.sitetree .selected	{background:#e1e1e1}
+
+.context-menu *, .context-submenu * {font-size:11px; font-family:Tahoma}
+.context-submenu {
+	display:block;
+	position:absolute;
+	border:1px outset #FFFFFF;
+	background-color:#dddddd;
+	padding:2px 0px
+}
+.context-menu {
+	display:block;
+	position:absolute;
+	border:1px outset #FFFFFF;
+	background-color:#ffffff;
+	padding:2px 0px
+}
+.context-menu a, .context-submenu a {
+	display:block;
+	padding:2px 8px;
+	text-decoration:none;
+	color:#000000
+}
+.context-menu div, .context-submenu div {
+	display:block;
+	padding:2px 8px;
+	text-decoration:none;
+	color:#AAAAAA
+}
+.context-header {padding:4px !important; background:#f7a208; margin-top:-2px; color:#FFFFFF !important; font-weight:bold;margin-bottom:3px}
+.context-close {float:right; cursor:pointer}
+.fastkey {float:right; margin-top:-2px}
+.context-menu .spacer {border-bottom:1px solid #dddddd; margin:1px 0px 2px 0px; line-height:1px;}
+.context-submenu .spacer {border-bottom:1px solid #ffffff; margin:1px 0px 2px 0px; line-height:1px;}

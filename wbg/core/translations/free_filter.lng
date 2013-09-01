@@ -1,0 +1,38 @@
+<?php
+
+if (@$_CFG['user']['interface_language']==1){
+
+	define("__FF_1__", "Pievienot filtru");
+	define("__FF_2__", "Izvēlēties filtru");
+	define("__FF_3__", "Redzēt rezultātu");
+	define("__FF_4__", "Saglabāt settings");
+	define("__FF_5__", "Tajā ir");
+	define("__FF_6__", "Sakrīt ar");
+	define("__FF_7__", "Sākas ar");
+	define("__FF_8__", "Beidzas ar");
+
+} else if (@$_CFG['user']['interface_language']==2){
+
+	define("__FF_1__", "Добавить фильтр");
+	define("__FF_2__", "Выбрать фильтр");
+	define("__FF_3__", "Отфильтровать");
+	define("__FF_4__", "Сохранить фильтр");
+	define("__FF_5__", "Есть строка");
+	define("__FF_6__", "Совпадает с");
+	define("__FF_7__", "Начинается на");
+	define("__FF_8__", "Заканчивается на");
+
+} else {
+
+	define("__FF_1__", "Add filter");
+	define("__FF_2__", "Select filter");
+	define("__FF_3__", "Filter data");
+	define("__FF_4__", "Save settings");
+	define("__FF_5__", "Has in it");
+	define("__FF_6__", "Match with");
+	define("__FF_7__", "Starts with");
+	define("__FF_8__", "Ends with");
+
+}
+
+?>

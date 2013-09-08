@@ -261,9 +261,15 @@ class WbgLayout
        return array_key_exists( $blockId, $this->skinBlocks );
     }
 
-    public function displayModule()
+    public function displayModule($moduleName = null)
     {
-        $this->includeTemplate( 'parts/footer' );
+        global $_CFG;
+        global $web;
+
+        $moduleToLoad = $_CFG['skin_paths']['module'] . $moduleName . '.php';
+
+        if ( file_exists( $moduleToLoad ) )
+           include $moduleToLoad;
     }
 
 

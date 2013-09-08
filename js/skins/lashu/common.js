@@ -76,7 +76,7 @@ CHAKRA.slider = function(){
         slide_links             :   'blank',    // Individual links for each slide (Options: false, 'num', 'name', 'blank')
         thumb_links             :   0,          // Individual thumb links for each slide
         thumbnail_navigation    :   0,          // Thumbnail navigation
-        slides                  :   [           // Slideshow Images
+        slides                  :   homeSliderImages || [           // Slideshow Images
                                             {image : 'images/collage.jpg', title : '<div class="slide-content">Luxury eyelash extensions</div>', thumb : '', url : ''},
                                             {image : 'images/dean.jpg', title : '<div class="slide-content">Amazing quality</div>', thumb : '', url : ''},
                                             {image : 'images/girl.jpg', title : '<div class="slide-content">Natural look</div>', thumb : '', url : ''},

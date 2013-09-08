@@ -1142,11 +1142,9 @@ nav#menu #menu-nav li a:hover {
 /* ==================================================
    Contact Section
 ================================================== */
-.contact-details h3 {
+.contact-details h4 {
   color: #4C4F55;
-  font-size: 24px;
   font-weight: 300;
-  margin-bottom: 30px;
   line-height: 1em;
   text-transform: uppercase;
 }
@@ -1163,6 +1161,13 @@ nav#menu #menu-nav li a:hover {
 #contact-form {
   margin-bottom: 0;
 }
+#contact-form.with-errors input,
+#contact-form.with-errors textarea {
+  border: 1px dotted #da4f49;
+}
+#contact-form.with-errors input.submit {
+  border: none;
+}
 #contact-form p {
   margin-bottom: 1px;
 }
@@ -1172,6 +1177,9 @@ nav#menu #menu-nav li a:hover {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -1182,19 +1190,13 @@ nav#menu #menu-nav li a:hover {
   padding: 15px;
   margin: 0;
   resize: none;
-}
-#contact-form input {
-  width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  width: 100%;
 }
 #contact-form textarea {
-  width: 100%;
   resize: vertical;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 #contact-form .submit {
   background: #E0E0E0;
@@ -1218,8 +1220,8 @@ nav#menu #menu-nav li a:hover {
   color: #FFFFFF;
 }
 #response {
-  margin-top: 20px;
-  color: #55606A;
+  margin-top: 10px;
+  color: #da4f49;
 }
 /* ==================================================
    Twitter Feed

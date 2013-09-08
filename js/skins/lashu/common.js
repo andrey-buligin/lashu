@@ -207,14 +207,17 @@ CHAKRA.contactForm = function(){
         
         $.ajax({
             type: "POST",
-            url: "_include/php/contact.php",
+            url: "/skins/lashu/modules/output/contacts-validation.php",
             data: fields,
             dataType: 'json',
             success: function(response) {
                 
-                if(response.status){
-                    $('#contact-form input').val('');
+                if (response.status){
+                    $('#contact-form input:not(#contact-submit)').val('');
                     $('#contact-form textarea').val('');
+                    $('#contact-form').removeClass('with-errors');
+                } else {
+                    $('#contact-form').addClass('with-errors');
                 }
                 
                 $('#response').empty().html(response.html);

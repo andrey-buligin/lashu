@@ -3,8 +3,8 @@
 	<?php $this->loadGalleryRequiredJsFilesMin();?>
 	<?php $this->loadRequiredJsFilesMin();?>
 <?php else: ?>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- jQuery Core -->
-  <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> <!-- Google Map API -->
+  <script type="text/javascript" src="<?php echo $this->getSkinJsUrl('jquery.min.js')?>"></script> <!-- jQuery Core -->
+  <!--<script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script> --> <!-- Google Map API -->
   <script type="text/javascript" src="<?php echo $this->getSkinJsUrl('bootstrap.min.js')?>"></script>
   <script type="text/javascript" src="<?php echo $this->getSkinJsUrl('supersized.3.2.7.min.js')?>"></script>
   <script type="text/javascript" src="<?php echo $this->getSkinJsUrl('waypoints.js')?>"></script>

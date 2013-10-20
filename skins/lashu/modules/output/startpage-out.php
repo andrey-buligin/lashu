@@ -26,4 +26,3 @@ ob_end_clean();
 $return_from_module = WBG_HELPER::transferToXHTML( $moduleHTML );
 
 ?>
-XOXOXOXO

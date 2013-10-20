@@ -46,12 +46,12 @@
 
 			// checking if input is portfolioModule then url to category should be SEO friendly
 			if ( ($arr['input_module'] != $_CFG['portfolio_input_module_id']) ) {
-				if ($arr['active'] && !count($class)) {
-					$link = WBG_HELPER::SmartUrlEncode( WBG::crosslink($arr['id']) );
-					$hrefClass = 'class="external"';
-				} else {
+				// if (!$arr['active'] && !count($class)) {
+				// 	$link = WBG_HELPER::SmartUrlEncode( WBG::crosslink($arr['id']) );
+				// 	$hrefClass = 'class="external"';
+				// } else {
 					$link = '#'.str_replace(array('eng/', '/'), '', $arr['dir']);
-				}
+				//}
 			} else {
 				$link = $UrlManager->getWbgCategoryUrl( $arr['id'] );
 			}

@@ -197,7 +197,7 @@ class WbgLayout
     public function getLogoImage()
     {
         if ( $this->skin->logo )
-            return WBG_HELPER::insertImage( $this->skin->logo, '', null, 1 ) ;
+            return WBG_HELPER::insertImage( $this->skin->logo, '');
         else
             return '<img src="'.$this->getImageUrl( 'building/logo.jpg' ).'" alt="" title="" /></a>';
     }

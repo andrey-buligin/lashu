@@ -48,7 +48,7 @@
 		<link href="<?php echo $this->getSkinCssUrl('fonts.css');?>" rel="stylesheet">
 
 		<!-- Shortcodes -->
-		<link href="<?php echo $this->getSkinCssUrl('shortcodes.css');?>" rel="stylesheet">
+		<!-- <link href="<?php echo $this->getSkinCssUrl('shortcodes.css');?>" rel="stylesheet"> -->
 
 		<!-- Responsive -->
 		<link href="<?php echo $this->getSkinCssUrl('bootstrap-responsive.min.css');?>" rel="stylesheet">

@@ -1,5 +1,5 @@
 <!-- Big Blockquote -->
-<div class="big-quote page">
+<div class="big-quote">
     <div class="container">
         <div class="row">
             <div class="span12">

@@ -35,7 +35,7 @@
 				</div>
 			<?elseif(isset($_POST['send'])):?>
 				<?php
-					$header = "From: www.beautybyhanna.com <omgbeautybyhanna@gmail.com>\r\n";
+					$header = "From: www.ladylash.co.uk <omgbeautybyhanna@gmail.com>\r\n";
 					mail(WBG::message('mailto', null, 1), 'Contact form', print_r($_POST, 1), $header );
 					//mail('surfer@inbox.lv', 'Contact form', print_r($_POST, 1), $header );
 				?>
@@ -68,8 +68,8 @@
         <div class="span4">
         
         	<div id="googleMap">
-	 			<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.co.uk/maps?hl=en&amp;sig=ycO&amp;ie=UTF8&amp;q=beauty++by+hanna&amp;fb=1&amp;gl=uk&amp;cid=0,0,18193410473570611342&amp;t=m&amp;ll=51.524125,-0.161533&amp;spn=0.009345,0.01502&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-				<div style="padding-bottom: 10px"><a target="_blank" href="http://maps.google.co.uk/maps?hl=en&amp;sig=ycO&amp;ie=UTF8&amp;q=beauty++by+hanna&amp;fb=1&amp;gl=uk&amp;cid=0,0,18193410473570611342&amp;t=m&amp;ll=51.524125,-0.161533&amp;spn=0.009345,0.01502&amp;z=15&amp;iwloc=A&amp;source=embed">View in a larger map</a></div>
+	 			<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="<?php WBG::message('googleMapLink');?>"></iframe>
+				<div style="padding-bottom: 10px"><a target="_blank" href="<?php WBG::message('googleMapLinkToLargeMap');?>">View in a larger map</a></div>
         	</div>
 
         </div>

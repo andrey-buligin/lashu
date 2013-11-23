@@ -142,7 +142,7 @@ form {
 }
 a {
   text-decoration: none;
-  color: #8b6a12;
+  color: #168c8e;
   outline: none;
 }
 a:hover {
@@ -1110,7 +1110,7 @@ form textarea.error {
   color: #8b6a12;
 }
 #blog-page .blog-item .tags a {
-  color: #8b6a12;
+  color: #168c8e;
 }
 #blog-page .blog-item .tags strong {
   color: #5E5D5D;
@@ -1158,16 +1158,6 @@ form textarea.error {
   -o-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: l left center;
-  -o-transform-origin: left center;
-  -ms-transform-origin: l left center;
-  transform-origin: left center;
   -webkit-transform-origin: left center;
   -moz-transform-origin: l left center;
   -o-transform-origin: left center;
@@ -1197,11 +1187,6 @@ form textarea.error {
   -o-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 .bb-page > div {
   width: 100%;
@@ -1210,16 +1195,6 @@ form textarea.error {
   -o-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  -moz-transform-style: preserve-3d;
-  -o-transform-style: preserve-3d;
-  -ms-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -o-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
@@ -1227,11 +1202,11 @@ form textarea.error {
   backface-visibility: hidden;
 }
 .bb-back {
-  -webkit-transform: rotatey(-180deg);
-  -moz-transform: rotatey(-180deg);
-  -ms-transform: rotatey(-180deg);
-  -o-transform: rotatey(-180deg);
-  transform: rotatey(-180deg);
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
 }
 .bb-outer {
   width: 100%;
@@ -1253,11 +1228,11 @@ form textarea.error {
 }
 .bb-bookblock > div.bb-page:first-child,
 .bb-bookblock > div.bb-page:first-child .bb-back {
-  -webkit-transform: rotatey(180deg);
-  -moz-transform: rotatey(180deg);
-  -ms-transform: rotatey(180deg);
-  -o-transform: rotatey(180deg);
-  transform: rotatey(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 .bb-item {
   width: 100%;
@@ -1315,11 +1290,6 @@ nav.bb-custom-nav a:first-child {
   height: 100%;
   display: inline-block;
   position: relative;
-  -webkit-perspective: 800px;
-  -moz-perspective: 800px;
-  -o-perspective: 800px;
-  -ms-perspective: 800px;
-  perspective: 800px;
   -webkit-perspective: 800px;
   -moz-perspective: 800px;
   -o-perspective: 800px;

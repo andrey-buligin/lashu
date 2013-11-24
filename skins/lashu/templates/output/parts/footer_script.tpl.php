@@ -22,19 +22,19 @@
 
 <?php global $_CFG; if ($_CFG['Environment'] == 'live') :?>
 	<script type="text/javascript">
-      // var _gaq = _gaq || [];
-      // _gaq.push(['_setAccount', 'UA-36089727-1']);
-      // _gaq.push(['_trackPageview']);
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-45980958-1']);
+      _gaq.push(['_trackPageview']);
 
-      // (function() {
-      //   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      //   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      // })();
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
-      // var addthis_config = {
-      //    data_ga_property: 'UA-36089727-1',
-      //    data_ga_social : true
-      // };
+      var addthis_config = {
+         data_ga_property: 'UA-45980958-1',
+         data_ga_social : true
+      };
     </script>
 <?php endif; ?>

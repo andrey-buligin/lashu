@@ -86,6 +86,11 @@ function resizeImages()
 	$content = @file_get_contents(dirname(__FILE__).'/__saved_data_'.$_CFG['current_category']['id']);
 	$content = @unserialize($content);
 	
+	if ($content['image_size_x'] AND $content['image_size_y']) {
+		$imageWidth = $content['image_size_x'];
+		$imageHeight = $content['image_size_y'];
+	}
+
 	foreach (array_keys($portfolioCategories) as $portfolioCatId)
 	{
 		if ( @is_array($content['images_'.$portfolioCatId]['small']) )

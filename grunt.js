@@ -43,15 +43,23 @@ module.exports = function(grunt) {
       },
       main: {
         src: ['<banner:meta.banner>',
-              'js/plugins/jquery.easing.1.3.js',
-              'js/plugins/validation.js',
-              'js/skins/hanna/*.js'],
+              'js/skins/lashu/*.js'],
         dest: 'js/<%= pkg.name %>_custom.min.js'
       }
     },
     cssmin: {
       css: {
-        src: ['<banner:meta.banner>', 'css/main.css', 'css/normalize.css', 'css/skins/hanna/main.css'],
+        src: ['<banner:meta.banner>',
+              'css/skins/lashu/bootstrap.min.css',
+              'css/skins/lashu/main.css',
+              'css/skins/lashu/supersized.css',
+              'css/skins/lashu/supersized.shutter.css',
+              'css/skins/lashu/fancybox/jquery.fancybox.css',
+              'css/skins/lashu/fonts.css',
+              'css/skins/lashu/bootstrap-responsive.min.css',
+              'css/skins/lashu/responsive.css',
+              'css/skins/lashu/custom.css',
+              ],
         dest: 'css/<%= pkg.name %>.css'
       }
     },
@@ -82,6 +90,6 @@ module.exports = function(grunt) {
   // Minify Main slider files, then cocat with already minified plugins
   // Concat css
   // Concat main files then  minify them and concat it with minified plugins
-  grunt.registerTask('default', 'min:slider min:book concat:slider cssmin:css min:main concat:main');
+  grunt.registerTask('default', 'min:slider min:book concat:slider cssmin:css min:main');//concat:main
 
 };

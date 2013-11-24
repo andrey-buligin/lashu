@@ -32,9 +32,6 @@
 		<!-- Bootstrap -->
 		<link href="<?php echo $this->getSkinCssUrl('bootstrap.min.css');?>" rel="stylesheet">
 
-		<!-- <link rel="stylesheet" href="css/normalize.css">
-	    <link rel="stylesheet" href="css/main.css"> -->
-
 		<link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinCssUrl('main.css');?>" />
 
 		<!-- Supersized -->
@@ -57,11 +54,12 @@
 		<!-- Custom CSS -->
 		<link href="<?php echo $this->getSkinCssUrl('custom.css');?>" rel="stylesheet">
 
-		<!-- Google Font -->
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-
 		<?php $this->loadGalleryRequiredCssFiles(); ?>
 	<?php endif; ?>
+
+	<!-- Google Font -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
 
 	<script type="text/javascript" src="js/modernizr.js"></script>
 </head>

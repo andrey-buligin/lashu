@@ -1,5 +1,5 @@
 <?php global $_CFG; if ($_CFG['Environment'] == 'live') :?>
-	<script type="text/javascript" src="js/hanna.min.js"></script>
+	<script type="text/javascript" src="js/lashu.min.js"></script>
 	<?php $this->loadGalleryRequiredJsFilesMin();?>
 	<?php $this->loadRequiredJsFilesMin();?>
 <?php else: ?>

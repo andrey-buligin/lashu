@@ -43,7 +43,17 @@ module.exports = function(grunt) {
       },
       main: {
         src: ['<banner:meta.banner>',
-              'js/skins/lashu/*.js'],
+          'js/skins/lashu/jquery.min.js',
+          'js/skins/lashu/bootstrap.min.js',
+          'js/skins/lashu/supersized.3.2.7.min.js',
+          'js/skins/lashu/waypoints.js',
+          'js/skins/lashu/waypoints-sticky.js',
+          'js/skins/lashu/jquery.isotope.js',
+          'js/skins/lashu/jquery.fancybox.pack.js',
+          'js/skins/lashu/jquery.fancybox-media.js',
+          'js/skins/lashu/plugins.js',
+          'js/skins/lashu/common.js'
+            ],
         dest: 'js/<%= pkg.name %>_custom.min.js'
       }
     },

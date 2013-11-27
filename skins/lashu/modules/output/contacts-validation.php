@@ -6,7 +6,7 @@ header('Cache-Control: no-cache, must-revalidate');
 header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
 header('Content-type: application/json');
 
-$admin_email = 'buligin.developer@gmail.com'; // Your Email
+$admin_email = 'lashustudio@gmail.com'; // Your Email
 $message_min_length = 5; // Min Message Length
 
 class Contact_Form{

@@ -100,32 +100,3 @@
 </div>
 </div>
 <!-- End Contact Section -->
-
-
-<!-- <form method="post" id="customForm" action="">
-	<div>
-		<label for="name">Name</label>
-		<input id="name" name="name" type="text" />
-		<span id="nameInfo"></span>
-	</div>
-	<div>
-		<label for="email">E-mail</label>
-		<input id="email" name="email" type="text" />
-		<span id="emailInfo"></span>
-	</div>
-	<div>
-		<label for="message">Message</label>
-		<textarea id="message" name="message" cols="" rows=""></textarea>
-	</div>
-	<div>
-		<input id="send" name="send" type="submit" value="Send" />
-	</div>
-</form>
-</article> -->
-<?php
-
-	/*$devFiles = array('plugins/validation.js', 'skins/hanna/contacts.js');
-	$minFiles = 'skins/hanna/contacts.min.js';
-
-	$_CFG['currentLayout']->requireJsFiles($devFiles, $minFiles);*/
-?>

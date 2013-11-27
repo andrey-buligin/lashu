@@ -7,9 +7,9 @@
             <div class="span12">
                 <nav id="social">
                     <ul>
-                        <li><a href="https://twitter.com/buligins" title="Follow Us on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
-                        <li><a href="https://www.facebook.com/lash.extension" title="Follow Us on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
-                        <li><a href="https://plus.google.com/102346584537869526317" title="Follow Us on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                        <li><a href="<?php WBG::message("social_link_twitter");?>" title="Follow Us on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="<?php WBG::message("social_link_facebook");?>" title="Follow Us on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="<?php WBG::message("social_link_googleplus");?>" title="Follow Us on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
                     </ul>
                 </nav>
             </div>

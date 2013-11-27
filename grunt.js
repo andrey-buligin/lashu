@@ -23,7 +23,7 @@ module.exports = function(grunt) {
         dest: 'js/galleries/horizontal_slider/slider.min.js'
       },
       main: {
-        src: ['js/jquery-1.8.2.min.js', '<config:min.main.dest>'],
+        src: ['<config:min.main.dest>'],
         dest: 'js/<%= pkg.name %>.min.js'
       }
     },
@@ -100,6 +100,6 @@ module.exports = function(grunt) {
   // Minify Main slider files, then cocat with already minified plugins
   // Concat css
   // Concat main files then  minify them and concat it with minified plugins
-  grunt.registerTask('default', 'min:slider min:book concat:slider cssmin:css min:main');//concat:main
+  grunt.registerTask('default', 'min:slider min:book concat:slider cssmin:css min:main concat:main');
 
 };

@@ -10,6 +10,7 @@
                         <li><a href="<?php WBG::message("social_link_twitter");?>" title="Follow Us on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
                         <li><a href="<?php WBG::message("social_link_facebook");?>" title="Follow Us on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
                         <li><a href="<?php WBG::message("social_link_googleplus");?>" title="Follow Us on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                        <li><a href="<?php WBG::message("social_link_instagram");?>" title="Follow Us on Instagram" target="_blank"><span class="font-icon-social-photobucket"></span></a></li>
                     </ul>
                 </nav>
             </div>
